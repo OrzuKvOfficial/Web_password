@@ -13,6 +13,11 @@ body {
     border-radius: 5px;
     background-color: #fff;
   }
+  .error-message {
+    display: none;
+    color: red;
+    margin-top: 10px;
+  }
   .form-group {
     margin-bottom: 20px;
   }

@@ -11,17 +11,17 @@
 </head>
 <body>
 
-<div class="container">
-  <h2 class="text-center mb-4">Saytga kirish</h2>
-  <div id="error-message" class="alert alert-danger d-none" role="alert">
-    Noto'g'ri parol kiritildi. Iltimos, tekshirib qaytadan urinib ko'ring.
+  <div class="container">
+    <h2 class="text-center mb-4">Saytga kirish</h2>
+    <div id="error-message" class="alert alert-danger error-message" role="alert">
+      Noto'g'ri parol kiritildi. Iltimos, tekshirib qaytadan urinib ko'ring.
+    </div>
+    <div class="form-group">
+      <label for="password">Parol</label>
+      <input type="password" class="form-control" id="password" required>
+    </div>
+    <button type="button" class="btn btn-primary btn-block" onclick="checkPassword()">Kirish</button>
   </div>
-  <div class="form-group">
-    <label for="password">Parol</label>
-    <input type="password" class="form-control" id="password" required>
-  </div>
-  <button type="button" class="btn btn-primary btn-block" onclick="checkPassword()">Kirish</button>
-</div>
 
 </body>
 <script src="./main.js"></script>
